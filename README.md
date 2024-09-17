@@ -22,6 +22,6 @@ En principio estara subdivididos en carpetas con las asignaturas que cursaré.
 
 ## Horario
 
-<img title="" src="file:///C:/Users/jimen/2Dam/horario.png" alt="horario" data-align="inline" style="zoom:100%;">
+<img title="" src="./horario.png" alt="horario" data-align="inline" style="zoom:100%;">
 
 
