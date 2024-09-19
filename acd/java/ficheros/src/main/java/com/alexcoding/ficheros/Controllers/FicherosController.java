@@ -13,15 +13,16 @@ import com.alexcoding.ficheros.Services.FicheroServicio;
 @Controller
 public class FicherosController {
     @Autowired
-    FicheroServicio fs = new FicheroServicio();
+    FicheroServicio fs;
 
-    @GetMapping("holaMundo")
+    @GetMapping("/holaMundo")
     @ResponseBody    
     public String holaMundo(){
-        return "";
+        return "Hola mundo";
     }
 
     @GetMapping("getJugadores")
+    @ResponseBody
     public List<Jugador> getJugadores() {
         return fs.obtenerJugadores();
     }
