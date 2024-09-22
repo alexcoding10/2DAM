@@ -18,6 +18,7 @@ public class ItemsController {
     @Autowired
     ItemsServicio is;
 
+    
     @GetMapping("/items")
     @ResponseBody
     public List<Item> getAllItem() {
