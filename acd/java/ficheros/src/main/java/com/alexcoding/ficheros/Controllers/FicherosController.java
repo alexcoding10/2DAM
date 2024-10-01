@@ -26,6 +26,8 @@ public class FicherosController {
     public List<Jugador> getJugadores() {
         return fs.obtenerJugadores();
     }
+
+    
     
 
 }

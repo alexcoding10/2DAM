@@ -2,9 +2,7 @@ package com.alexcoding.ficheros.Services;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Service;
-
 import com.alexcoding.ficheros.Entities.Jugador;
 
 @Service
@@ -17,5 +15,4 @@ public class FicheroServicio {
         listaJugadores.add(j2);
         return listaJugadores;
     }
-
 }
