@@ -4,6 +4,7 @@ public class ResponseMsg extends Response {
     private String msg;
 
 
+    public ResponseMsg(){};
     public ResponseMsg(Status status, String msg) {
         super(status);
         this.msg = msg;

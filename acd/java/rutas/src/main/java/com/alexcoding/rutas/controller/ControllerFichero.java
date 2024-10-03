@@ -16,12 +16,15 @@ public class ControllerFichero {
     @Autowired
     public FicheroService fs;
 
+    /**
+     * Controlador para obtenet el contenido de una ruta
+     * @param route
+     * @return
+     */
     @GetMapping("ruta")
     @ResponseBody
     public Response getFileRoute(@RequestParam (required = true) String route) {
         return fs.getResponseFicheroByRoute(route);
-    }
-
-    
+    } 
 
 }

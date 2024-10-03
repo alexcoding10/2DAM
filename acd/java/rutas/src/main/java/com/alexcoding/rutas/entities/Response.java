@@ -21,7 +21,8 @@ public abstract class Response {
 
     protected Status status;
 
-
+    public Response() {
+    }
     public Response(Status status) {
         this.status = status;
     }
